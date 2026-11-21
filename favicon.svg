@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="WATSON GPT — magnifying glass favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16302f"/>
+      <stop offset="1" stop-color="#0b1618"/>
+    </linearGradient>
+    <radialGradient id="glass" cx="0.38" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#cfeef0" stop-opacity="0.7"/>
+      <stop offset="0.45" stop-color="#6fb0b4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0d1a1c" stop-opacity="0.1"/>
+    </radialGradient>
+    <linearGradient id="thread" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9822f" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="#ffe3a0"/>
+      <stop offset="1" stop-color="#e8b45e" stop-opacity="0.5"/>
+    </linearGradient>
+    <clipPath id="lensClip"><circle cx="30" cy="27" r="16"/></clipPath>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="64" height="64" rx="12" fill="url(#bg)"/>
+
+  <!-- refracted tether thread behind and through the lens -->
+  <path d="M2,52 C18,46 26,36 40,24 C48,17 56,12 62,9" fill="none" stroke="url(#thread)" stroke-width="2" filter="url(#glow)"/>
+  <g clip-path="url(#lensClip)">
+    <path d="M12,44 C22,36 30,30 48,14" fill="none" stroke="#ffe3a0" stroke-width="1.6" filter="url(#glow)"/>
+  </g>
+
+  <!-- lens -->
+  <circle cx="30" cy="27" r="16" fill="url(#glass)" stroke="#e8b45e" stroke-width="3.5" filter="url(#glow)"/>
+  <circle cx="30" cy="27" r="13.5" fill="none" stroke="#ffe6a8" stroke-width="1" opacity="0.7"/>
+  <path d="M22,22 C25,18 31,17 36,19" fill="none" stroke="#ffffff" stroke-width="1.8" opacity="0.55" stroke-linecap="round"/>
+  <circle cx="34" cy="30" r="2" fill="#fff4cf" filter="url(#glow)"/>
+
+  <!-- handle -->
+  <path d="M41,38 L57,54" stroke="#3a2417" stroke-width="9" stroke-linecap="round"/>
+  <path d="M41,38 L57,54" stroke="#c8893b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- node on the thread -->
+  <circle cx="52" cy="18" r="2.2" fill="#ffe3a0" filter="url(#glow)"/>
+</svg>

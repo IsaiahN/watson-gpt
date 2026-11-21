@@ -1,5 +1,7 @@
 # WATSON: World And Tether Search ONline
 
+![WATSON GPT — World And Tether Search ONLINE](watson-gpt-banner.svg)
+
 Finding information is not a problem in today's age. Finding the right information is. Tether helps you find the signal in the noise, the needle in the haystack. WATSON is a reasoning assistant, not an oracle. It searches a closed set of rules first, then the world, and it says what would reverse its answer. It's elementary!
 
 ## What this is
@@ -32,6 +34,7 @@ Ask it for **critical thinking mode** and it walks the eight steps of the Tether
 | [`DIRECTORY_LISTING.md`](DIRECTORY_LISTING.md) | Short and long descriptions, framing options, categories and starter prompts for GPT directories. |
 | [`WATSON_Custom_GPT.md`](WATSON_Custom_GPT.md) | The single file that contains all five parts together, for anyone who wants the whole thing in one document. |
 | [`variants/`](variants/) | Alternate formats for the major GPT publishing surfaces. See below. |
+| [`watson-gpt-banner.svg`](watson-gpt-banner.svg) · [`favicon.svg`](favicon.svg) | Brand assets: the Sherlock Holmes styled banner and a matching square favicon, both SVG. |
 
 ## Variants
 
